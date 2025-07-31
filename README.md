@@ -9,7 +9,7 @@ Build an end-to-end ETL pipeline for 2025 OpenF1 data, from extraction through l
 | **Transformation**     | Python (`pandas` )          |
 | **Loading**            | Snowflake (or your data warehouse)          |
 | **Staging & Storage**  | AWS S3 (raw + processed zones)              |
-| **Compute**            | AWS Glue (Python shell) or ECS/Fargate pods |
+| **Compute**            | AWS Glue (Python shell)  |
 | **Containerization**   | Docker + Docker Compose                     |
 | **CI/CD**              | GitHub Actions (or GitLab CI)               |
 | **Infrastructure IaC** | Terraform (for S3, IAM, Airflow infra)      |
