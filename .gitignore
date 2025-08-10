@@ -1,0 +1,5 @@
+venv/
+logs/
+plugins/
+config/
+.env
