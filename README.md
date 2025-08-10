@@ -1,6 +1,6 @@
 # F1_ETL_Pipeline
 
-Build an end-to-end ETL pipeline for 2025 OpenF1 data, from extraction through loading into Postgres using Apache Airflow.
+Built an end-to-end ETL pipeline for 2025 OpenF1 data, from extraction through loading into Postgres using Apache Airflow.
 
 | Layer                  | Component                                   |
 | ---------------------- | ------------------------------------------- |
