@@ -1,18 +1,14 @@
 # F1_ETL_Pipeline
 
-Build an end-to-end ETL pipeline for 2025 OpenF1 data, from extraction through loading into Snowflake.
+Build an end-to-end ETL pipeline for 2025 OpenF1 data, from extraction through loading into Postgres using Apache Airflow.
 
 | Layer                  | Component                                   |
 | ---------------------- | ------------------------------------------- |
-| **Orchestration**      | Apache Airflow (self-managed or MWAA)       |
+| **Orchestration**      | Apache Airflow                              |
 | **Extraction**         | Python (`requests`)                         |
-| **Transformation**     | Python (`pandas` )          |
-| **Loading**            | Snowflake (or your data warehouse)          |
+| **Transformation**     | Python (`SQLAlchemy` )                      |
+| **Loading**            | Posstgres                                   |
 | **Staging & Storage**  | AWS S3 (raw + processed zones)              |
-| **Compute**            | AWS Glue (Python shell)  |
 | **Containerization**   | Docker + Docker Compose                     |
 | **CI/CD**              | GitHub Actions (or GitLab CI)               |
-| **Infrastructure IaC** | Terraform (for S3, IAM, Airflow infra)      |
-| **Logging & Metrics**  | CloudWatch Logs       |
-| **Secrets & Config**   | AWS Secrets Manager      |
-| **Version Control**    | Git                                         |
+
